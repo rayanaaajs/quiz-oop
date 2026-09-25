@@ -17,6 +17,7 @@ public class Main {
     menu.addMenuItem(new MenuItem("Roti Bakar", 12000));
 
     Customer budi = new Customer("C001", "Budi Santoso");
+    budi.setName("Budi S");
     Order order = new Order(budi);
     order.addItem(menu.findItem("Es Kopi Susu"), 2);
     order.addItem(menu.findItem("Roti Bakar"), 1);
