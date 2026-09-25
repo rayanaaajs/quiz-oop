@@ -35,7 +35,6 @@ public class Order {
     }
 
     public double getFinalTotal(){
-        // Pemesanan senilai Rp 100.000 atau lebih mendapatkan diskon 10%
         double total = getTotal();
         if (total >= 100000) {
             total *= 0.9;
